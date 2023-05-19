@@ -1,0 +1,3 @@
+﻿  Migaku.cpp
+D:\Microsoft Visual Studio\workspace\Migaku\Migaku\Migaku.cpp(68,12): error C2440: 'initializing': cannot convert from 'void' to 'int'
+D:\Microsoft Visual Studio\workspace\Migaku\Migaku\Migaku.cpp(68,12): message : Expressions of type void cannot be converted to other types
