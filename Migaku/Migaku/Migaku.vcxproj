@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="LearnVector.cpp" />
     <ClCompile Include="Migaku.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LearnVector.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

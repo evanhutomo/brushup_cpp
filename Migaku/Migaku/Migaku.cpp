@@ -1,4 +1,5 @@
 #include <iostream>
+#include "LearnVector.h"
 
 /**
 * function to demonstrate auto keyword
@@ -56,6 +57,11 @@ int dooBar(Foo foo) {
     return foo.GetFoo();
 }
 
+/**
+* function for demonstrate constexpr 
+*/
+constexpr int product(int x, int y) { return (x * y); }
+
 int main()
 {
     // testing auto keyword
@@ -67,7 +73,16 @@ int main()
 
     // testing explicit keyword
     int ii = dooBar(42);    // this way demonstrate implisit conversion on constructor.
-        
+    
+    // testing constexpr keyword
+    // constexpr creates a compile-time constant;
+    // const simply means that value cannot be changed.
+    constexpr int x = product(10, 20);
+    std::cout << x << std::endl;
+
+    // Learn vector
+    LearnVector lv;
+    lv.DoSomething(19);
 
     return 0;
 }

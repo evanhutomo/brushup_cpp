@@ -2,6 +2,13 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=c++,cmake
 
 ### C++ ###
+# other
+*.tlog
+*.log
+*.ilk
+*.idb
+*.pdb
+
 # Prerequisites
 *.d
 
