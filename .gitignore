@@ -3,6 +3,13 @@
 
 ### C++ ###
 # other
+*.db
+*.opendb
+*.db-shm
+*.db-wal
+*.suo
+*.lock
+*.vsidx
 *.tlog
 *.log
 *.ilk
@@ -63,3 +70,5 @@ _deps
 
 build/
 .vscode/
+.vs/
+x64/Debug/
